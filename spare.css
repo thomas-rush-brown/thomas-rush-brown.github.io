@@ -1,0 +1,35 @@
+body {
+	width: 750px;
+}
+
+div.container {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+div.container:before,
+div.container:after {
+    content: "";
+    display: table;
+}
+
+div.container:after {
+    clear: both;
+}
+
+div.email > span:nth-child(3) {
+	display: none;
+}
+
+div.email > span:nth-child(5) {
+	display: none;
+}
+
+img {
+	padding-right: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
